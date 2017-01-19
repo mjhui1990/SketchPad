@@ -4,16 +4,24 @@
         <meta charset="utf-8">
             <title>The Odin Project | Sketchpad Project</title>
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans" rel="stylesheet">
-
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
+        <script type="javascript/text" src="javascript/jquery.js"></script>
+        </head>        
         <body>
-            <div id="pad">
-                <div id="title"
-                    <p>"Sketchpad"</p>
-                </div>  
+            <h1>Sketchpad</h1>
+            <div class="buttoncontainer">
+            <button id="ClearButton" onclick="clearGrid()">Clear!</button>
+            <button onclick="createNGrid()">New Grid!</button>
+            <button onclick="randomColor()">randomColor</button>
             </div>
-        <script type="javascript/text" src="javascript/jquery.js"
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <div id="container">
+            <div id="grid">
+            </div>
+            </div>
+
+
         </body>
-    </head>
+
 </html>
